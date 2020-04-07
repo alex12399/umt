@@ -2,10 +2,15 @@
 Cerintele nu se potriveau cu exemplul asa ca mi-am luat libertatea de a pune cerintele in prim-plan: in exemplu se regaseste de doua ori booked calendar1, insa niciodata booked calendar2, asa ca am presupus ca al doilea booked calendar1 trebuie sa fie booked calendar2; in output-ul dat ca exemplu, se considera ca 11:30 - 12:30 este o intalnire valida, insa calendarul primului om este ocupat in intervalul 12:00 - 12:30, asa ca am presupus ca intalnirea trebuia sa fie de fapt intre 11:30 - 12:00.
 
 Pentru a functiona, datele trebuie introduse in fisier astfel:
+
 Linia 1 : intervalele orare in care primul om este ocupat (chiar si cu ghilimele sau cuvinte inainte, ca in exemplu)
+
 Linia 2 : intervalul orar in care primul om poate avea intalniri (chiar si cu ghilimele sau cuvinte inainte, ca in exemplu)
+
 Linia 3 : intervalele orare in care al doilea om este ocupat (chiar si cu ghilimele sau cuvinte inainte, ca in exemplu)
+
 Linia 4 : intervalul orar in care al doilea om poate avea intalniri (chiar si cu ghilimele sau cuvinte inainte, ca in exemplu)
+
 Linia 5 : durata unei intalniri (chiar si cu ghilimele sau cuvinte inainte, ca in exemplu)
 
 In fisierul de output vor fi intervalele orare intre care cei doi oameni pot avea intalniri.
